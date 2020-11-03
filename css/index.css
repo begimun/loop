@@ -1,0 +1,142 @@
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    max-width: 1100px;
+    margin: auto;
+    /* border: 2px solid red; */
+}
+.hero{
+    position: relative;
+    background-color: #F9F6F1;
+    height: 100vh;
+}
+
+.hero__row{
+    display: flex;
+    padding-top: 215px;
+    height: 100vh;
+}
+
+.hero__suptitle{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 1;
+    letter-spacing: 0.02em;
+
+}
+
+.hero__title{
+    margin: 35px 0 55px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 1;
+    letter-spacing: 0.04em;
+
+}
+
+.hero__btn{
+    padding: 18px 30px;
+    background-color: #D7B399;
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 1;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+
+.col-6{
+    width: 50%;
+    /* border: 2px solid red; */
+}
+
+.hero__item{
+    position: relative;
+}
+
+.hero__oldPrice,
+.hero__newPrice{
+    text-align: right;
+}
+
+.hero__oldPrice{
+  font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 1;
+    text-align: right;
+    letter-spacing: 0.05em;
+    text-decoration-line: line-through;
+    text-transform: uppercase;
+    
+}
+
+.hero__newPrice{
+    margin-top: 15px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 1;
+    text-align: right;
+    letter-spacing: 0.02em;
+    text-transform: uppercase; 
+    color: #D84033;
+       
+}
+.hero__product{
+position: absolute;
+top: -34px;
+}
+
+.slick-initialized .slick-slide {
+    display: flex;
+}
+
+.slick-slide {
+    border: none !important;
+    outline: none !important;
+}
+.slick-arrow{
+    display: none !important;
+}
+
+.hero .slick-dots{
+     position: absolute;
+     bottom: 70px;
+     left: 50%;
+     transform: translateX(-50%);
+     display: flex;
+     list-style: none;
+     -webkit-transform: translateX(-50%);
+     -moz-transform: translateX(-50%);
+     -ms-transform: translateX(-50%);
+     -o-transform: translateX(-50%);
+}
+
+.hero .slick-dots button{
+    width: 40px;
+    height: 7px;
+font-size: 0;
+background-color: #CECECE;
+border: none;
+outline: none;
+margin-right: 15px;
+cursor: pointer;
+}
+
+.hero .slick-dots .slick-active button{
+    background-color: #D7B399;    
+}
+

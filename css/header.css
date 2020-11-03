@@ -1,0 +1,50 @@
+header{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 30px 0;
+}
+
+.header__row,
+.nav__menu,
+.header__shop{
+    display: flex;
+}
+
+.header__row{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__nav--left .nav__item{
+    margin-right: 45px;
+}
+
+.nav__item:nth-last-child(1){
+    margin: 0;
+}
+
+.nav__link{
+    color: black;
+    font-weight: 500;
+}
+
+.header__shop{
+    margin-left: 100px;
+}
+
+.shop__busket{
+    margin-right: 15px;
+}
+
+.shop__count span{
+    padding: 2px 15px;
+    background-color: #dddddd;
+
+}
+
+.shop__count span::before{
+    content: '';
+}
+
